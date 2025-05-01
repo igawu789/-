@@ -1,0 +1,20 @@
+# requirements.txt
+
+# Core scientific and machine learning libraries
+numpy>=1.18.0      # For numerical operations (specify version if needed)
+scikit-learn>=0.24.0 # For RandomForestRegressor (specify version if needed)
+
+# Geospatial data processing library
+# Note: GDAL installation via pip can be tricky.
+# It's STRONGLY recommended to install GDAL using Conda:
+# conda install -c conda-forge gdal
+# If using pip, you might need pre-compiled wheels or system dependencies.
+# The version number here is just a placeholder, adjust based on your environment.
+# GDAL>=3.0.0
+
+# Python's standard GUI library (usually included, listed for completeness)
+# tkinter
+
+# --- Optional (If used directly or by dependencies, uncomment/add) ---
+# matplotlib       # If you add any plotting functionality
+# pandas           # If you use DataFrames
